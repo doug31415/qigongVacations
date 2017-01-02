@@ -1,0 +1,90 @@
+
+.nav-background{
+
+  &.qi-gong {
+    background-image : url(../images/bkgrnd-1.png);
+  }
+
+  &.qigong-vacation {
+    background-image : url(../images/bkgrnd-4.png);
+  }
+
+  &.upcoming {
+    background-image : url(../images/bkgrnd-3.png);
+  }
+
+  &.our-teachers{
+    background-image : url(../images/bkgrnd-2.png);
+  }
+
+  &.contact-us {
+    background-image : url(../images/bkgrnd-1.png);
+  }
+
+  padding-bottom: rem-calc(30);
+}
+
+.title-bar {
+  padding    : rem-calc(20);
+  background : rgba(255, 255, 255, 0.5) !important;
+  z-index    : 100;
+
+  .title-bar-right {
+    margin-top : 18px;
+  }
+}
+
+.tabs {
+
+  li {
+    a {
+      color       : black;
+      font-weight : 400;
+      font-style  : normal;
+
+      &:hover {
+        color      : $menu-active-color;
+        font-style : italic;
+      }
+    }
+
+    &.is-active {
+      a {
+        font-weight : 900;
+      }
+    }
+  }
+}
+
+.info-block {
+  margin     : rem-calc(40) 0;
+  background : rgba(255, 255, 255, 0.75);
+  padding    : rem-calc(20);
+
+  h1 {
+    font-size : 30px;
+    color     : #b36500;
+  }
+
+  h2 {
+    font-size : 18px;
+    color     : #3b394f;
+  }
+}
+
+.logo {
+  background-image  : url(../images/logo.png);
+  background-size   : contain;
+  background-repeat : no-repeat;
+  margin            : rem-calc(10);
+  margin-top        : rem-calc(25);
+  width             : 252px;
+  height            : 57px;
+  border            : none;
+}
+
+.button {
+  &.rounded {
+    border-radius : 20px;
+  }
+}

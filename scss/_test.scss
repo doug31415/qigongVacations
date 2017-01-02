@@ -1,0 +1,47 @@
+.test {
+  border : 1px solid black !important;
+
+  @include breakpoint (xxlarge only) {
+    background : #ad75ff !important;
+  }
+
+  @include breakpoint (xlarge only) {
+    background : #ffcf43 !important;
+  }
+
+  @include breakpoint (large only) {
+    background : #4fff6b !important;
+  }
+
+  @include breakpoint (medium only) {
+    background : #45b1ff !important;
+  }
+
+  @include breakpoint (small only) {
+    background : #d5ff63 !important;
+  }
+}
+
+.test2 {
+  border : 1px solid #8d0012 !important;
+
+  @include breakpoint (xxlarge only) {
+    background : #afff74 !important;
+  }
+
+  @include breakpoint (xlarge only) {
+    background : #9fafff !important;
+  }
+
+  @include breakpoint (large only) {
+    background : #ff93fe !important;
+  }
+
+  @include breakpoint (medium only) {
+    background : #ffa980 !important;
+  }
+
+  @include breakpoint (small only) {
+    background : #3e48ff !important;
+  }
+}
